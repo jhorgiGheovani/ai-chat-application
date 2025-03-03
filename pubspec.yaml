@@ -9,6 +9,35 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # State Management
+  provider: ^6.0.5
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.9.0
+  cloud_firestore: ^4.9.1
+  firebase_analytics: ^10.4.5
+
+  # UI
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+  intl: ^0.18.1
+
+  # In-App Purchases
+  purchases_flutter: ^8.6.0  # RevenueCat
+
+  # Analytics
+  mixpanel_flutter: ^2.1.1
+
+  # Utils
+  shared_preferences: ^2.2.1
+  flutter_dotenv: ^5.1.0
+  equatable: ^2.0.5
+  uuid: ^4.0.0
+  timeago: ^3.5.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +46,18 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  # assets:
+  #   - assets/images/
+  #   - assets/localization/
+
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Poppins-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
